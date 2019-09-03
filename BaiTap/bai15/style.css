@@ -1,0 +1,12 @@
+table{
+	width: 100%;
+	border: "0";
+}
+
+tr.1{
+	vertical-align: top;
+}
+
+*{
+	box-sizing: border-box;
+}

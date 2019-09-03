@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Tạo form và các điều khiển</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Đăng ký du lịch</h1>
+		<table style="width: 100%">
+			<tr>
+				<td>Họ và tên</td>
+				<td><input type="text" style="width: 400px"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td><input type="text" style="width: 200px"></td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Khách Việt Nam</td>
+				<td>
+					<input type="checkbox">
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn tour</td>
+				<td>
+					<select>
+
+						<optgroup label="Miền Bắc"></optgroup>
+						<option value="">Hà Nội - Hạ Long - Sapa</option>
+						<option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+						<option value="">Hà Nội - Cát Bà - Tuần Châu</option>
+						<optgroup label="Miền Trung"></optgroup>
+						<option value="">Huế - Bạch Mã - Đà Nẵng</option>
+						<option value="">Nha Trang - Đà Lạt</option>
+						<option value="">Buôn Mê Thuột - Gia Lai - KoTum</option>
+						<optgroup label="Miền Nam"></optgroup>
+						<option value="">TP.HCM - Cần Thơ - Cà Mau</option>
+						<option value="">TP.HCM - Mỹ Tho</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Phương tiện</td>
+				<td>
+					<input type="radio" name="phuongtien"> Máy bay
+					<input type="radio" name="phuongtien"> Xe ô tô
+				</td>
+			</tr><tr>
+				<td colspan="2">
+					<fieldset class="box">
+						<legend>Số lượng đoàn khách</legend>
+						<form action="">
+							Người lớn <input type="text" style="width: 50px">
+							Trẻ em: <input type="text" style="width: 50px">
+						</form>
+						
+					</fieldset>
+				</td>
+				
+			</tr><tr>
+				<td>Ghi chú thêm
+					<td><textarea name="" id="" cols="30" rows="2"></textarea></td>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2" class="button"><button onclick="myFunction()">Đồng ý</button></td>
+			</tr><tr>
+				<td colspan="2" id="showtext"></td>
+			</tr>
+		</table>
+	</div>
+	<script>
+		function myFunction() {
+			document.getElementById("showtext").innerHTML = "Bạn đã đăng ký thành công!!!";
+		}
+	</script>
+</body>
+</html>

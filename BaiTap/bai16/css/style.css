@@ -1,0 +1,40 @@
+table,tr{
+	width: 100%;
+	border: 1px solid #b4b4b4;
+	border-collapse: collapse;
+}
+.tbl_con,tr,td{
+	border-top: none;
+	border-right: none;
+}
+.ul_1 li a{
+	color: blue;
+	font-size: 18px;
+}
+.ul_1 li{
+	padding-bottom: 4px;
+}
+.top{
+	background: #026492;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+.content{
+	padding: 0;
+	margin: 0;
+}
+.content h3{
+	color: #026492;
+	padding: 0;
+	margin: 0;
+	height: 20px; 
+}
+.move a{
+	background: #b4b4b4;
+	color: blue;
+}
+.move{
+	width: 10%;
+	float: right;
+}
